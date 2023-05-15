@@ -1,0 +1,316 @@
+/* essential styles */
+body {
+    font-family: "Courier New", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+
+/* Header styles */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.15s;
+
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: auto;
+    cursor: pointer;
+
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+
+
+img {
+    width: 50%;
+
+
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    opacity: 0.8;
+    transition: 0.15s;
+    cursor: pointer;
+
+
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+
+}
+
+.sidebar li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.15s;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+
+
+/* Content styles */
+.content {
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-image: url("img/gaming.jpg");
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+main {
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.main-text {
+    background-color: white;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: black;
+    padding: 20px;
+    opacity: 0.9;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.15s;
+    margin: 0 auto;
+
+
+
+}
+
+.content h1 {
+    font-weight: bold;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.content1 {
+    padding: 1px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    color: white;
+
+
+}
+
+.news h1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 40px;
+
+}
+
+.news-section {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.new1 {
+    margin: 20px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: 0.15s;
+    width: 100%;
+
+}
+
+.new1 img {
+    max-width: 500px;
+    width: 300px;
+}
+
+.new1 h2 {
+    text-transform: capitalize;
+}
+
+.new1 p {
+    text-align: left;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+footer ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 40px;
+
+
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Links styles */
+a {
+    color: #333;
+
+    transition: 0.15s;
+}
+
+/*HOVER*/
+a:hover {
+    background-color: white;
+    color: #333;
+
+
+}
+
+.logo a:hover {
+    background-color: #474747;
+    color: white;
+}
+
+.sidebar li a:hover {
+    background-color: #333;
+    color: white;
+
+}
+
+.main-text:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.new1:hover {
+    transform: scale(1.03);
+}
+
+.sidebar:hover {
+    opacity: 1;
+}
+
+/*HOVER*/
+/*CONTENT PAGE*/
+
+
+.contentNew {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.contentNew img {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/*CONTENT PAGE*/
